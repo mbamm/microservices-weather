@@ -1,0 +1,8 @@
+﻿Build started...
+1>------ Build started: Project: Cloudweather.DataLoader, Configuration: Debug Any CPU ------
+1>D:\Dev\Weather-microservices\Cloudweather.DataLoader\Models\PrecipitationModel.cs(13,23,13,34): warning CS8618: Non-nullable property 'WeatherType' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+1>D:\Dev\Weather-microservices\Cloudweather.DataLoader\Models\PrecipitationModel.cs(14,23,14,30): warning CS8618: Non-nullable property 'ZipCode' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+1>D:\Dev\Weather-microservices\Cloudweather.DataLoader\Models\TemperatureModel.cs(14,23,14,30): warning CS8618: Non-nullable property 'ZipCode' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+1>Cloudweather.DataLoader -> D:\Dev\Weather-microservices\Cloudweather.DataLoader\bin\Debug\net6.0\Cloudweather.DataLoader.dll
+1>Done building project "Cloudweather.DataLoader.csproj".
+========== Build: 1 succeeded, 0 failed, 3 up-to-date, 0 skipped ==========

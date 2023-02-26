@@ -15,7 +15,7 @@ builder.Services.AddDbContext<PrecipDbContext>(
 var app = builder.Build();
 
 
-app.MapGet("/obsevation/{zip}", async (string zip, [FromQuery] int? days, PrecipDbContext db) =>
+app.MapGet("/observation/{zip}", async (string zip, [FromQuery] int? days, PrecipDbContext db) =>
 {
     if (days == null || days < 1 || days > 30)
     {

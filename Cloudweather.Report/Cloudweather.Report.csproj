@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="build_and_push_ecr_image.sh" />
+    <None Remove="Dockerfile" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="build_and_push_ecr_image.sh" />
+    <Compile Include="Dockerfile" />
+  </ItemGroup>
+
+  <ItemGroup>
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.14" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.14">
 		  <PrivateAssets>all</PrivateAssets>
